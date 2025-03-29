@@ -39,23 +39,18 @@ header {
     }
 }
 
+main {
+    clear: left;
+
+}
+
+footer {
+    & p {
+        text-align: center;
+    }
+}
+
 /*
-Format the main content 
-    Add a style rule for the <main> element and set the clear attribute to left.
-    Refresh the page to view your changes. Note that the Our Mission heading is now under the image again.
-    In the HTML, change the height attribute of the image back to 80. 
-
-Format the footer 
-    Add a style rule for the <footer> element and a nested style rule for the <p> element that centers the element text.
-    Refresh the page to view your changes. 
-
-Use the Developer Tools to review the styles for the page 
-    In Chrome, display the Developer Tools. Next, expand the <main> element in the Elements pane and click on one of the <h2> elements.
-    Review the styles for the <h2> element in the Styles pane, and notice how the font-size style for the <body> element in the main style sheet and the <h2> element in the user agent style sheet are overridden by the font-size style for the default <h2> element in the main style sheet.
-    Click the icon in the Developer Tools toolbar that has a square with an arrow pointing to it, and then click on the <h2> element in the header to make sure that it’s selected in the Elements pane.
-    Review the styles for this <h2> element to see that they’re similar to the styles for the default <h2> element. However, the font size for this element is larger and it has a text indent.
-    When you’re done with the Developer Tools, close the panel by clicking the “X” in the upper right corner. 
-
 Use a CSS class as a selector 
     In the HTML, find the <h3> element in the header and enclose the text “75” in an <em> element. Then, add a class attribute with a value of large to the <em> element.
     In the CSS, create a style rule that sets the font size to 125% for the class named large.
