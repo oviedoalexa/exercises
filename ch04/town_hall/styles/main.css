@@ -57,11 +57,3 @@ footer {
 .large {
 	font-size: 125%;
 }
-
-/*
-Use a CSS variable 
-    Create a custom property named accent-color and assign it a hex value of #800000. The selector should be for the root element.
-    Replace every occurrence of the hex value #800000 with this custom property.
-    Refresh the page. It should look the same as before.
-    Change the value of the custom property to the hex value #4d0080.
-    Refresh the page to view your changes. When you’re done, change the custom property back to its previous value./*
