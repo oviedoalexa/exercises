@@ -1,3 +1,7 @@
+:root {
+	--accent-color: #800000;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -5,7 +9,7 @@ body {
 
 a:hover, a:focus {
     font-style: italic; 
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
 
 h2 {
     font-size: 130%;
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h3 {
@@ -50,12 +54,11 @@ footer {
     }
 }
 
-/*
-Use a CSS class as a selector 
-    In the HTML, find the <h3> element in the header and enclose the text “75” in an <em> element. Then, add a class attribute with a value of large to the <em> element.
-    In the CSS, create a style rule that sets the font size to 125% for the class named large.
-    Refresh the page to view your changes
+.large {
+	font-size: 125%;
+}
 
+/*
 Use a CSS variable 
     Create a custom property named accent-color and assign it a hex value of #800000. The selector should be for the root element.
     Replace every occurrence of the hex value #800000 with this custom property.
