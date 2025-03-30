@@ -30,7 +30,7 @@ body {
     font-size: 100%;
 	width: 80%;
 	margin: auto;
-	border: 2px solid --accent-color;
+	border: 2px solid var(--accent-color);
 }
 a:hover, a:focus{
 	font-style: italic;
@@ -62,15 +62,15 @@ header {
 		float: left;
 		margin: .75em 1em;
 	}
-	border-bottom: 2px solid --accent-color;
+	border-bottom: 2px solid var(--accent-color);
 }
 
 /* the styles for the main content */
 main {
 	clear: left;
 	& h1 {
-		border-top: 2px solid --accent-color;
-		border-bottom: 2px solid --accent-color;
+		border-top: 2px solid var(--accent-color);
+		border-bottom: 2px solid var(--accent-color);
 	}
 	padding: 0 1em 1em;
 }
