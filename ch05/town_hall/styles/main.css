@@ -3,6 +3,27 @@
 	--accent-color: #800000;  /* could also be coded #800 */
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	& h1 {
+		padding: .5em 0;
+	}
+	& h2 {
+		padding: .5em 0;
+	}
+	& h3 {
+		padding: .5em 0;
+	}
+	& p {
+		padding: .5em 0;
+	}
+	& ul {
+		padding: .5em 0;
+		margin-left: 2em;
+	}
+}
+
 /* default styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
