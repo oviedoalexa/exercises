@@ -51,15 +51,16 @@ h3 {
 header {
 	& h2 {
 		font-size: 175%;
-		text-indent: 30px;
+		padding-bottom: 0;
 	}
 	& h3 {
 		font-size: 130%;
 		font-style: italic;
-		text-indent: 30px;
+		padding-bottom: 1em;
 	}
 	& img {
 		float: left;
+		margin: .75em 1em;
 	}
 	border-bottom: 2px solid --accent-color;
 }
@@ -71,6 +72,7 @@ main {
 		border-top: 2px solid --accent-color;
 		border-bottom: 2px solid --accent-color;
 	}
+	padding: 0 1em 1em;
 }
 
 /* the styles for the footer */
@@ -80,7 +82,7 @@ footer {
 		color: white;
 	}
 	background-color: var(--accent-color);
-	
+	padding: 1em 0;
 }
 
 /* CSS class */
