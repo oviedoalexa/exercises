@@ -82,10 +82,10 @@ main {
 
 /* the styles for the footer */
 footer {
-	padding: 1em 0;
 	& p {
 		text-align: center;
 		color: white;
+		padding: 1em 0;
 	}
 	background-color: var(--accent-color);
 }
