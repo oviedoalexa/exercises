@@ -91,3 +91,33 @@ footer {
 .large {
 	font-size: 125%;
 }
+
+
+/*
+Enhance the CSS file to create a 2-column layout
+
+From this point on, refresh the page after each change to make sure it looks the way you want it. If you have any problems, use the Developer Tools to help you fix them. 
+    Enhance the style rule for the <main> element by setting the display property to flex. The <aside> and <section> elements should display side by side. Make sure the <aside> element displays before the <section> element.
+    Add style rules for the <aside> and <section> elements. Set the flex-basis property for the aside to 25% and for the section to 75%.
+    Adjust the margins and padding as needed so the columns lay out the way you want. 
+
+Add the CSS for the featured speaker 
+    In the HTML file, note that the <article> element is assigned to the featured class. In the CSS file, add a style rule for this class.
+    In the style rule for the <main> element, find the nested style rule for the <h1> element. Copy the border-top and border-bottom declarations to the style rule for the featured class. Then, delete the nested style rule for the <h1> element.
+    In the style rule for the <section> element, add a nested style rule for the <img> element that floats the image to the right.
+    Adjust the margins and padding as needed so it looks the way you want.
+
+Make the web page fluid 
+    Enhance the style rule for the <body> element as follows:
+    Set the width to 80% with a maximum width of 1024 pixels.
+    Set the font-size to 90% plus .2 viewport widths.
+    Set the line height to 1.5. To accommodate this, change the default top and bottom padding for headings, paragraphs, and unordered lists from .5em to .25em and set the line height in the <header> element to 1.2. 
+    Make the images scalable, with the following minimum and maximum widths:
+        Logo image: min 40 pixels, max 80 pixels
+        Featured speaker image: min 100 pixels, max 250 pixels
+        Guest speaker images: min 40 pixels, max 75 pixels
+
+For each image, you can use 100% as the width of the image when it’s between the minimum and maximum widths. However, that value may keep the image from actually scaling. If that’s the case, experiment with values that are less than 100% until the image scales the way you want it to.
+
+Make any final adjustments to the margins or padding and test the page.
+*/ 
