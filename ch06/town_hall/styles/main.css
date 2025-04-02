@@ -96,16 +96,17 @@ footer {
 
 
 /*
-Enhance the CSS file to create a 2-column layout
-
-From this point on, refresh the page after each change to make sure it looks the way you want it. If you have any problems, use the Developer Tools to help you fix them. 
-    Add style rules for the <aside> and <section> elements. Set the flex-basis property for the aside to 25% and for the section to 75%.
     Adjust the margins and padding as needed so the columns lay out the way you want. 
 
 Add the CSS for the featured speaker 
+
     Adjust the margins and padding as needed so it looks the way you want.
+
+Make the web page fluid 
+
+    Enhance the style rule for the <body> element as follows:
 
 For each image, you can use 100% as the width of the image when it’s between the minimum and maximum widths. However, that value may keep the image from actually scaling. If that’s the case, experiment with values that are less than 100% until the image scales the way you want it to.
 
-Make any final adjustments to the margins or padding and test the page.
+    Make any final adjustments to the margins or padding and test the page.
 */ 
