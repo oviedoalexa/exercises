@@ -126,3 +126,32 @@ footer {
 .large {
 	font-size: 125%;
 }
+
+/*
+Add the HTML for the navigation menu
+
+5. Add a second <li> element that contains an <a> element. Set the text of the <a> element to “Speakers” and the href attribute to the hash character (#) so it doesn’t link anywhere.
+6. Copy the second <li> element and paste it three times to create the last three list items. Then, change the text for the links in each list item so they match the screen for this exercise.
+7. Run the web page and view it to see how the navigation menu looks in the browser before any CSS is applied to it. 
+
+Add the CSS for the menu class
+
+8. Add a style rule for the menu class that uses flexbox to display the menu items horizontally and wrap the menu items on small screens.
+9. To space the menu items so they take up the entire navigation bar, add a nested style rule for the <li> element and set the flex-basis property to 20%.
+10. Refresh the web page to see how it looks. The navigation menu should lay out horizontally with space between the links. However, it still needs a lot of formatting.
+
+Add the CSS for the navbar class 
+
+11. Add variables for a light, mid, and dark menu colors to the :root pseudo-class. For the mid color, you can choose any light color. The screen that’s shown for this exercise uses antique white.
+12. Add a style rule for the navbar class. Set the background color for the navbar class to the accent color. Then, add the following nested style rules:
+    a. For the <a> element, display links as block elements, set the padding for all four sides to 1em, remove the underline from the links, and set the text color to the light menu color.
+    b. For the :hover pseudo-class, :focus pseudo-class, and current class of the <a> element, set the background color to the mid menu color and the text color to the dark menu color.
+    c. For the <ul> element, set margins and padding to 0 and remove the bullets from the list items.
+13. Refresh the web page and view it. Notice that there’s no space between the menu items or between the menu items and the bottom of the navigation bar. As a result, the background color of the navigation menu isn’t shown. 
+
+Add the finishing touches
+
+14. To add some space around the menu items, update the nested <a> element style rule in the navbar class. Set a top margin of 0, left and right margins of 1 pixel, and a bottom margin of 2 pixels.
+15. To center the text in the menu items, update the nested <li> element style rule in the menu class. Set the text-align property to center.
+16. Refresh the web page to view it.
+*/
