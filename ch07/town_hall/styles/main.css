@@ -2,6 +2,9 @@
 :root {
 	--accent-color: #800000;  /* could also be coded #800 */
 	--gradient-color: #f6bb73;
+	--light: white;
+	--mid: antiquewhite;
+	--dark: black;
 }
 
 /* reset */
@@ -134,16 +137,26 @@ footer {
 	}
 }
 
+.navbar {
+	background-color: var(--accent-color);
+	& a {
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+		color: var(--light)
+	}
+	& a:hover, a:focus, a.current {
+		background-color: var(--mid);
+		color: var(--dark)
+	}
+	& ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+}
+
 /*
-Add the CSS for the navbar class 
-
-11. Add variables for a light, mid, and dark menu colors to the :root pseudo-class. For the mid color, you can choose any light color. The screen that’s shown for this exercise uses antique white.
-12. Add a style rule for the navbar class. Set the background color for the navbar class to the accent color. Then, add the following nested style rules:
-    a. For the <a> element, display links as block elements, set the padding for all four sides to 1em, remove the underline from the links, and set the text color to the light menu color.
-    b. For the :hover pseudo-class, :focus pseudo-class, and current class of the <a> element, set the background color to the mid menu color and the text color to the dark menu color.
-    c. For the <ul> element, set margins and padding to 0 and remove the bullets from the list items.
-13. Refresh the web page and view it. Notice that there’s no space between the menu items or between the menu items and the bottom of the navigation bar. As a result, the background color of the navigation menu isn’t shown. 
-
 Add the finishing touches
 
 14. To add some space around the menu items, update the nested <a> element style rule in the navbar class. Set a top margin of 0, left and right margins of 1 pixel, and a bottom margin of 2 pixels.
