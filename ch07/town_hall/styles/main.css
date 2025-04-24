@@ -134,6 +134,7 @@ footer {
 	display: flex;
 	& li {
 		flex-basis: 20%;
+		text-align: center;
 	}
 }
 
@@ -142,6 +143,7 @@ footer {
 	& a {
 		display: block;
 		padding: 1em;
+		margin: 0 1px 2px;
 		text-decoration: none;
 		color: var(--light)
 	}
@@ -155,11 +157,3 @@ footer {
 		list-style-type: none;
 	}
 }
-
-/*
-Add the finishing touches
-
-14. To add some space around the menu items, update the nested <a> element style rule in the navbar class. Set a top margin of 0, left and right margins of 1 pixel, and a bottom margin of 2 pixels.
-15. To center the text in the menu items, update the nested <li> element style rule in the menu class. Set the text-align property to center.
-16. Refresh the web page to view it.
-*/
