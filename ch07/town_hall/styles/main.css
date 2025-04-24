@@ -128,12 +128,6 @@ footer {
 }
 
 /*
-Add the HTML for the navigation menu
-
-5. Add a second <li> element that contains an <a> element. Set the text of the <a> element to “Speakers” and the href attribute to the hash character (#) so it doesn’t link anywhere.
-6. Copy the second <li> element and paste it three times to create the last three list items. Then, change the text for the links in each list item so they match the screen for this exercise.
-7. Run the web page and view it to see how the navigation menu looks in the browser before any CSS is applied to it. 
-
 Add the CSS for the menu class
 
 8. Add a style rule for the menu class that uses flexbox to display the menu items horizontally and wrap the menu items on small screens.
