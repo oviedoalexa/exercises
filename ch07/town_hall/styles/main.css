@@ -127,13 +127,14 @@ footer {
 	font-size: 125%;
 }
 
+.menu {
+	display: flex;
+	& li {
+		flex-basis: 20%;
+	}
+}
+
 /*
-Add the CSS for the menu class
-
-8. Add a style rule for the menu class that uses flexbox to display the menu items horizontally and wrap the menu items on small screens.
-9. To space the menu items so they take up the entire navigation bar, add a nested style rule for the <li> element and set the flex-basis property to 20%.
-10. Refresh the web page to see how it looks. The navigation menu should lay out horizontally with space between the links. However, it still needs a lot of formatting.
-
 Add the CSS for the navbar class 
 
 11. Add variables for a light, mid, and dark menu colors to the :root pseudo-class. For the mid color, you can choose any light color. The screen that’s shown for this exercise uses antique white.
