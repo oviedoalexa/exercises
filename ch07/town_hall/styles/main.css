@@ -157,3 +157,22 @@ footer {
 		list-style-type: none;
 	}
 }
+
+.menu:has(.submenu) {
+	position: relative;
+	& small {
+		margin: 5px;
+	}
+	& li:hover > ul {
+		display: block;
+	}
+}
+
+.submenu {
+	position: absolute;
+	left: 0;
+	right 0;
+	background-color: var(--accent-color);
+	color: var(--light);
+	display: none;
+}
